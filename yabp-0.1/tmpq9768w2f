@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: yabp
+Version: 0.1
+Summary: Yet another batch processor. Small python module to do batch processing. Use this when you want something lightweight and quick to setup. For usecases when writing batch processing boilerplate code is too repetitive and boring and Apache Beam/Ray is overkill
+Home-page: https://github.com/huynd2210/batchprocessor
+Author: Duc Huy Nguyen
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+
 # YABP - Yet another Batch Processor
 I wrote this because I needed a generic way to process large data (often in the form of lists) in batches. 
 Other libraries are generally more suited for complexer problem and often require more effort to setup and is 

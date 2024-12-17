@@ -28,11 +28,11 @@ processor = BatchProcessor(
 results = processor.process(process_batch)
 print("Final Results:", results)
 
-from batchprocessor import batch_processor_decorator
+from batchprocessor import batch_process
 import random
 
 # Decorate the function for batch processing
-@batch_processor_decorator(
+@batch_process(
     batch_size=5,
     progress=True,
     save_to_file="output_decorator.json",
