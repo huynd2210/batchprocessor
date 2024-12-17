@@ -91,7 +91,7 @@ class BatchProcessor:
 
 
 # Decorator for batch processing
-def batch_processor_decorator(
+def batch_process(
     batch_size: int,
     progress: bool = False,
     save_to_file: Optional[str] = None,
