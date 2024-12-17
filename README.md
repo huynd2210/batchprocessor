@@ -1,6 +1,14 @@
-# Batch Processor Module
+# YABP - Yet another Batch Processor
+I wrote this because I needed a generic way to process large data (often in the form of lists) in batches. 
+Other libraries are generally more suited for complexer problem and often require more effort to setup and is 
+often overkill for small projects. Also provides a decorator for even more simple usage.
+
+Another library that is similar and also accomplish the same goal: https://github.com/gillespied/batch_please/tree/main
 
 This module provides functionality for processing data in batches with options for progress tracking, retries, and saving results to a file. It includes a `BatchProcessor` class and a `batch_processor_decorator` for easy integration into your projects.
+
+## Installation
+pip install yabp==0.1
 
 ## Usage
 
